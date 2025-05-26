@@ -150,16 +150,18 @@ The goal of this project is to demonstrate a fully hardware‐implemented denois
 
 ### 3. Converting Back to Viewable Format
 
-2. **Convert all three `.mem` dumps to `.mif`** (one command handles R, G and B channels): (dont forget to get them in the same folder as the script, and change their name to outut_{r/g/b}.mem)
+1. **Convert all three `.mem` dumps to `.mif`** (one command handles R, G and B channels): (dont forget to get them in the same folder as the script, and change their name to outut_{r/g/b}.mem)
    ```bash
    python3 scripts/hextomif.py
 
 This reads r_output.mem, g_output.mem, b_output.mem and produces r_output.mif, g_output.mif, b_output.mif.
-3. Merge the three .mif files into a single RAW image:
 
-python3 scripts/mif_to_raw.py
+2. Merge the three .mif files into a single RAW image:
+    ```bash
+    python3 scripts/mif_to_raw.py
 
 By default this writes out lena_noiseless.raw or petruha_noiseless.raw (adjust filenames or script options as needed).
+
 4. Inspect the resulting RAW file using your preferred raw‐image viewer or convert it to a standard format (e.g., PNG) for display.
 
 ---
