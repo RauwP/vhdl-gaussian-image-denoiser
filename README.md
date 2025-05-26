@@ -46,13 +46,13 @@ The goal of this project is to demonstrate a fully hardware‐implemented denois
 
 ### Block Diagram
 
-![Block Diagram](vhdl-gaussian-image-denoiser\images\block_diagram.jpg)
+![Block Diagram](https://github.com/user-attachments/assets/692c89ac-d573-4bca-ae7e-d6ee449b0908)
 
 *Figure 1: Top‐level architecture showing the data path through the Control Unit, Processing Unit, and memory interfaces.*
 
 ### State Machine Diagram
 
-![State Machine Diagram](vhdl-gaussian-image-denoiser\images\state_machine.jpg)
+![State Machine Diagram](https://github.com/user-attachments/assets/5e399d20-580c-4c4a-8073-703efa1c1df3)
 
 *Figure 2: Control Unit finite‐state machine describing initialization, data fetch, denoising, and write‐back states.*
 
@@ -170,13 +170,13 @@ By default this writes out lena_noiseless.raw or petruha_noiseless.raw (adjust f
 
 | Input (Noisy)                    | Output (Denoised)               |
 | -------------------------------- | ------------------------------- |
-| ![](vhdl-gaussian-image-denoiser/images/lena_noise.raw) | ![](vhdl-gaussian-image-denoiser/images/lena_noiseless.raw) |
+| ![](https://github.com/user-attachments/assets/6a824e39-5ac4-4888-b238-751063aabf1a) | ![](https://github.com/user-attachments/assets/4d67a561-028d-4182-9113-ee004415f757) |
 
 ### Pétruha
 
 | Input (Noisy)                       | Output (Denoised)                  |
 | ----------------------------------- | ---------------------------------- |
-| ![](vhdl-gaussian-image-denoiser/images/petruha_noise.raw) | ![](vhdl-gaussian-image-denoiser/images/petruha_noiseless.raw) |
+| ![](https://github.com/user-attachments/assets/41b3edab-beac-44be-bf4e-8618572e0b90) | ![](https://github.com/user-attachments/assets/3b5279d6-5f1a-401d-ac8a-468e6ab6116a) |
 
 ---
 
