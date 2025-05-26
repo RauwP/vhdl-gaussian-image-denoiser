@@ -18,7 +18,7 @@ This repository implements a VHDL‑based image denoising pipeline designed to r
    * [3. Converting Back to Viewable Format](#3-converting-back-to-viewable-format)
 7. [Examples](#examples)
 8. [Resource Utilization](#resource-utilization)
-9. [License](#license)
+
 
 ---
 
