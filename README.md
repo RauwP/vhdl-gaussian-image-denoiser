@@ -1,6 +1,6 @@
 # Gaussian Noise Reduction on 256×256 24‑bit Images
 
-This repository implements a VHDL‑based image denoising pipeline designed to remove Gaussian noise (with noise level ≤ 5%) from 256 × 256 images at 24 bits per pixel (8 bits per color channel). The design includes the core denoising algorithm, format‐conversion utilities, test vectors, and demonstration examples using the classic “Lena” and “Pétruha” images.
+This repository implements a VHDL‑based image denoising pipeline designed to remove Gaussian noise (with noise level ≤ 5%) from 256 × 256 images at 24 bits per pixel (8 bits per color channel). The design includes the core denoising algorithm, format‐conversion utilities, test vectors, and demonstration examples using the classic “Lena” and “Pétruha” images. From start to finish the process takes 56.4 [usec]
 
 ---
 
