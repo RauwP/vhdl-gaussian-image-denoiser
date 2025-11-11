@@ -198,4 +198,5 @@ By default this writes out lena_noiseless.raw or petruha_noiseless.raw (adjust f
 
 ---
 Authors:
+
 Gad Barash: rauwp@duck.com
