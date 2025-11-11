@@ -197,3 +197,5 @@ By default this writes out lena_noiseless.raw or petruha_noiseless.raw (adjust f
 *Values measured on a Cyclone IV E EP4CE115F29C7.*
 
 ---
+Authors:
+Gad Barash: rauwp@duck.com
